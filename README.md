@@ -2,7 +2,7 @@
 ____
 This project's aim is to build an algorithm that uses classification techniques to predict whether a person has or has not a cardivascular disease. 
 
-**Models used:** Logistic Regression, Decision Trees, Naive Bayes, Support Vector Machine, KNeighbors Classifier, Random Forest, ExtraTreesClassifier and AdaBoost.
+**Models Used:** Logistic Regression, Decision Trees, Naive Bayes, Support Vector Machine, KNeighbors Classifier, Random Forest, ExtraTreesClassifier and AdaBoost.
 
 ## The Data
 ___
