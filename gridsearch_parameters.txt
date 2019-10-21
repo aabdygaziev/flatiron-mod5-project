@@ -1,0 +1,46 @@
+Gridsearch Parameter Tuning Results:
+
+DecisionTree Classifier:
+    Best Citerion: entropy
+    Best Num Split: 2
+    Best Depth: 5
+    Accuracy 0.7222000532056398
+    AUC_ROC 0.7258325702075702
+    [[6145 1586]
+     [2591 4714]]
+    Recall 0.7482539682539683
+    Precision 0.6453114305270363
+    
+LinearSVM
+    Best Penalty: l2
+    Best C: 1
+    Accuracy 0.7206703910614525
+    AUC_ROC 0.724205955399666
+    0.9990024605560135
+    [[6130 1601]
+     [2599 4706]]
+    Recall 0.7461550657999049
+    Precision 0.6442162902121834
+
+KNeighbors Clf
+    Best K_value: 9
+    Best p: 1
+    Accuracy 0.704974727321096
+    AUC_ROC 0.7052369638540948
+    [[5723 2008]
+     [2428 4877]]
+    0.8784922282404886
+    Recall 0.7083514887436456
+    Precision 0.6676249144421629
+
+Random Forest:
+    Best Citerion: gini
+    Best n_estimator: 18
+    Best min_sample_splits: 2
+    Best max_depth: 9
+    Accuracy 0.726123969140729
+    AUC_ROC 0.7291054959185402
+    [[6126 1605]
+     [2513 4792]]
+    Recall 0.7491011411599187
+    Precision 0.6559890485968515
